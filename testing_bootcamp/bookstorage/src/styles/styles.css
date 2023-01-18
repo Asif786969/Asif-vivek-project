@@ -1,0 +1,61 @@
+
+.App {
+	font-family: sans-serif;
+	text-align: center;
+}
+.home {
+	color: green;
+	font-weight: 700;
+	font-size: 1.1rem;
+	margin: 10px;
+	margin-top: 20px;
+}
+.home:hover {
+	color: gold;
+}
+.login {
+	color: green;
+	font-weight: 700;
+	margin: 10px;
+}
+.login:hover {
+	color: gold;
+}
+
+.signup {
+	color: green;
+	font-weight: 700;
+	margin: 10px;
+}
+.signup:hover {
+	color: gold;
+}
+
+.books {
+	color: green;
+	font-weight: 700;
+	margin-top: 21px;
+}
+.books:hover {
+	color: gold;
+}
+
+.card-asif{
+	/* margin-left:500px; */
+	font-size: 13px;
+	margin-left: 10px;
+	padding-top: 10px;
+	margin-top: 10px;
+	align-items: center;
+	width: 300px;
+	height:250px;
+	color: white;
+	background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg);
+	
+}
+.asif-grid-container{
+	display:flex;
+	flex-direction:row ;
+	flex-wrap: wrap;
+	
+}

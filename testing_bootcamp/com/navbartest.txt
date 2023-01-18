@@ -1,0 +1,20 @@
+import {render,screen,cleanup} from '@testing-library/react'
+import {expect, jest, test} from '@jest/globals';
+import Navbar from "./Navbar";
+
+describe('Navbar Page tests',()=>{//this is called suite and can contain multiple test cases
+    afterEach(()=>{
+        cleanup();
+    })
+    test('rendres the Navbar page',()=>{
+        render(<Navbar />);
+        
+
+    
+        
+    });
+    
+ 
+   
+})
+
